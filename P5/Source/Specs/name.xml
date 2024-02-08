@@ -12,6 +12,7 @@
   <gloss versionDate="2007-05-04" xml:lang="es">nombre, nombre propio</gloss>
   <gloss versionDate="2007-01-21" xml:lang="it">nome, nome proprio</gloss>
   <gloss versionDate="2016-11-24" xml:lang="de">Name, Eigenname</gloss>
+  <gloss versionDate="2023-02-08" xml:lang="ja">名詞、固有名詞</gloss>
   <desc versionDate="2005-01-14" xml:lang="en">contains a proper noun or noun phrase.</desc>
   <desc versionDate="2007-12-20" xml:lang="ko">고유명사 또는 명사구를 포함한다.</desc>
   <desc versionDate="2007-05-02" xml:lang="zh-TW">包含一個特定名稱 或名詞詞組。</desc>
