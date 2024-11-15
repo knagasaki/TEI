@@ -1,16 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Copyright TEI Consortium. 
-Dual-licensed under CC-by and BSD2 licences 
-See the file COPYING.txt for details
--->
+<!-- © TEI Consortium. Dual-licensed under CC-by and BSD2 licenses; see the file COPYING.txt for details. -->
 <?xml-model href="https://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
-<dataSpec xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" module="tei" ident="teidata.outputMeasurement">
+<dataSpec xmlns="http://www.tei-c.org/ns/1.0" module="tei" ident="teidata.outputMeasurement">
   <desc versionDate="2013-03-26" xml:lang="en">defines a range of values for use in specifying the size of an object that is intended for
     display.</desc>
   <desc versionDate="2007-12-20" xml:lang="ko">웹에서 디스플레이 목적의 대상 크기를 명시하는 값의 범위를 정의한다.</desc>
   <desc versionDate="2007-05-02" xml:lang="zh-TW">定義的屬性值範圍說明預定呈現在網路上之物件大小</desc>
-  <desc versionDate="2008-04-05" xml:lang="ja">webページ上で表示する際の大きさを定義する値の範囲を定義する。</desc>
+  <desc versionDate="2024-08-08" xml:lang="ja">表示を意図するオブジェクトの寸法を指定するための値の範囲を定義する。</desc>
   <desc versionDate="2007-06-12" xml:lang="fr">définit la gamme de valeurs exprimant
     les dimensions d'un objet destiné à être affiché</desc>
   <desc versionDate="2007-05-04" xml:lang="es">define una gama de valores para emplearlos en la
