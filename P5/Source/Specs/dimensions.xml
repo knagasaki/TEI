@@ -206,9 +206,9 @@ the rest of the monument by 345 mm.
     <p>Contient la mesure de la hauteur, de la largeur et de la profondeur d'un objet à 1,
                 2 ou 3 dimensions.</p>
   </remarks>
-  <remarks xml:lang="ja" versionDate="2008-04-05">
+  <remarks xml:lang="ja" versionDate="2026-06-25">
     <p>
-    対象物の高さ、幅、奥行きの大きさを示す。
+      三次元オブジェクトの高さ、幅、奥行きを表現するために使用される専用の要素はそれぞれ1回だけ、他の種類の寸法指定は何種類でも、含められる。
     </p>
   </remarks>
   <listRef>
