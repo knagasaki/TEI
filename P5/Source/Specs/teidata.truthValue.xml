@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Copyright TEI Consortium. 
-Dual-licensed under CC-by and BSD2 licences 
-See the file COPYING.txt for details
--->
+<!-- © TEI Consortium. Dual-licensed under CC-by and BSD2 licenses; see the file COPYING.txt for details. -->
 <?xml-model href="https://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
-<dataSpec xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" module="tei" ident="teidata.truthValue">
+<dataSpec xmlns="http://www.tei-c.org/ns/1.0" module="tei" ident="teidata.truthValue">
   <desc versionDate="2007-10-22" xml:lang="en">defines the range of attribute values used to express a truth
 value.</desc>
   <desc versionDate="2007-12-20" xml:lang="ko">진리값을 표현하는 속성 값 범위를 정의한다.</desc>
@@ -27,11 +23,9 @@ value.</desc>
     <val>inapplicable</val>, it should have the extended version of
     this datatype: <ident type="datatype">teidata.xTruthValue</ident>.</p>
   </remarks>
-  <remarks xml:lang="ja" versionDate="2008-04-05">
+  <remarks xml:lang="ja" versionDate="2024-09-02">
       <p>
-    曖昧な値が許されない場合に使われるデータ型になる。属性値が真偽値で
-    ない場合、例えば"unknown"や"inapplicable"の場合には、当該データ型
-    の拡張版であるteidata.xTruthValueを使うべきである。
+        このデータ型が取り得る値は、<val>1</val>または<val>true</val>または<val>0</val>または<val>false</val>である。曖昧な値が許されない場合に使われるデータ型である。属性値が真偽値でない場合、例えば<val>unknown</val>や<val>inapplicable</val>の場合には、当該データ型の拡張版である<ident type="datatype">data.xTruthValue</ident>を使うべきである。
     </p>
   </remarks>
   <remarks xml:lang="fr" versionDate="2007-06-12">

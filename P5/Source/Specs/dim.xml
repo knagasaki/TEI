@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Copyright TEI Consortium. 
-Dual-licensed under CC-by and BSD2 licences 
-See the file COPYING.txt for details
-$Date$
-$Id$
--->
+<!-- © TEI Consortium. Dual-licensed under CC-by and BSD2 licenses; see the file COPYING.txt for details. -->
 <?xml-model href="https://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
 <elementSpec xmlns="http://www.tei-c.org/ns/1.0" module="msdescription" ident="dim">
   <desc versionDate="2009-06-06" xml:lang="en">contains any single measurement forming part of a dimensional
 specification of some sort.</desc>
+  <desc versionDate="2025-12-06" xml:lang="ja">何らかの寸法記述の一部をなす単独の計量尺度を示す。</desc>
   <classes>
     <memberOf key="att.global"/>
     <memberOf key="att.typed"/>
@@ -29,6 +24,9 @@ specification of some sort.</desc>
 <gi>depth</gi> should be used in preference to this generic element
 wherever appropriate.</p>
   </remarks>
+  <remarks versionDate="2025-12-08" xml:lang="ja"><p>
+  該当する場合には、この汎用的な要素よりも特別な要素<gi>width</gi>（幅）、<gi>height</gi>（高さ）、<gi>depth</gi>（奥行）を優先的に用いるべきである。
+  </p></remarks>
   <listRef>
     <ptr target="#msdim"/>
   </listRef>

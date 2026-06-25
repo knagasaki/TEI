@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Copyright TEI Consortium. 
-Dual-licensed under CC-by and BSD2 licences 
-See the file COPYING.txt for details
--->
+<!-- © TEI Consortium. Dual-licensed under CC-by and BSD2 licenses; see the file COPYING.txt for details. -->
 <?xml-model href="https://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
-<dataSpec xmlns="http://www.tei-c.org/ns/1.0" xmlns:tei="http://www.tei-c.org/ns/1.0" module="tei" ident="teidata.certainty">
+<dataSpec xmlns="http://www.tei-c.org/ns/1.0" module="tei" ident="teidata.certainty">
   <desc versionDate="2007-10-18" xml:lang="en">defines the range of attribute values expressing a degree of certainty.</desc>
   <desc versionDate="2007-12-20" xml:lang="ko">확실성 정도를 표현하는 속성 값의 범위를 정의한다.</desc>
   <desc versionDate="2007-05-02" xml:lang="zh-TW">定義表示正確度的屬性值範圍</desc>
@@ -29,8 +25,8 @@ See the file COPYING.txt for details
     <!--For a more precise indication, <ident type="datatype">teidata.probability</ident>, which provides
         an may be used instead or in addition.--></p>
   </remarks>
-  <remarks xml:lang="ja" versionDate="2008-04-05">
-    <p> 確信度は、<val>high</val>、<val>medium</val>、<val>low</val>のうち の1つが選択される。より詳細に示したい場合には、 <ident type="datatype">teidata.probability</ident>を単独または追加と して使用することができる。 </p>
+  <remarks xml:lang="ja" versionDate="2024-08-08">
+    <p>確信度は、予め定義された値<val>high</val>、<val>medium</val>、または<val>low</val>のいずれかで表現される。確信度に関して何らかの意見を表明することを望んでいない場合は、<val> unknown</val>という値が使用されるべきである。より正確な指標を望む場合は、<ident type="datatype">data.probability</ident>を先に挙げた値の代わりに、またはそれに加えて使用することができる。</p>
   </remarks>
   <remarks versionDate="2009-05-25" xml:lang="fr">
     <p>Le degré de certitude peut être exprimé par l'une des valeurs symboliques prédéfinies

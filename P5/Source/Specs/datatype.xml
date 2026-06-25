@@ -1,11 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!--
-Copyright TEI Consortium. 
-Dual-licensed under CC-by and BSD2 licences 
-See the file COPYING.txt for details
-$Date$
-$Id$
--->
+<!-- © TEI Consortium. Dual-licensed under CC-by and BSD2 licenses; see the file COPYING.txt for details. -->
 <?xml-model href="https://jenkins.tei-c.org/job/TEIP5-dev/lastSuccessfulBuild/artifact/P5/release/xml/tei/odd/p5.nvdl" type="application/xml" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
 <elementSpec xmlns="http://www.tei-c.org/ns/1.0" module="tagdocs" ident="datatype">
   <gloss xml:lang="en" versionDate="2007-06-12">datatype</gloss>
@@ -119,11 +113,9 @@ $Id$
                 macros TEI prédéfinies, qui font correspondre un nom dans sa forme
                 <code>teidata.xxxx</code> à un type de données définies en RELAX NG or XSD.</p>
   </remarks>
-  <remarks xml:lang="ja" versionDate="2008-04-05">
+  <remarks versionDate="2024-09-02" xml:lang="ja">
     <p>
-    TEIスキームでは、殆どのデータ型はTEIマクロに規定されているものを使
-    用している。マクロ名にある<code>teidata.xxxx</code>で示されたデータ型
-    名は、RELAX NGまたはWSDのデータ型に対応づけられている。
+      TEIスキーマでは、殆どのデータ型はあらかじめ定義されたTEIマクロを使用することで表現される。このマクロは<code>teidata.xxxx</code>の形で示された名前を、RELAX NGまたはW3Cスキーマ言語により定義されたデータ型に対応づけている。
     </p>
   </remarks>
   <listRef>
